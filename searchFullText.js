@@ -26,7 +26,7 @@ async function run(){
                 // "from" : 10, 
                 
                 // "query": { "match_all": {} }, //--> match_all does not give any _score for each hits
-                // "query": { "match": { "text": "going coming" } }, // on 'text' types search for Kundensegment having 'Transactional' or 'Pragmatist' or IKEA or FAN
+                // "query": { "match": { "text": "going coming" } }, // on 'text' types search for Kundensegment having 'going' or 'coming'
                 // "query": { "match_phrase": { "text": "Witer is coming" } }, // search for exact values 
                 
                 // "bool": {

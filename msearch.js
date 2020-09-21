@@ -20,7 +20,7 @@ async function run(){
               { query: { match: { 'Kundensegment': 'Transactional Pragmatist' } } },
         
               { index: 'fehr' },
-              { query: { match: { 'Kundensegment': 'IKEA FAN' } } },
+              { query: { match: { 'Kundensegment': 'MY FAN' } } },
             ]
         });
         console.log(msearchResponse.body.responses);
